@@ -69,7 +69,7 @@ height = int(input("What is your height in cm? "))
 
 
 if name == "William" and height == int(192):
-    print (f" {name} is" f "{height}cm tall!" %(name,height))
+    print (f" {name} is" f"{height}cm tall!" %(name,height))
 elif name == "Roary" and height == 27:
     print ("Roary is 27cms tall.")
 else:
