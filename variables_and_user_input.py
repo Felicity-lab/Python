@@ -3,6 +3,7 @@ x = 3
 y = 9
 print(x + y)
 
+
 x = -3
 y = 9
 print(x + y)
@@ -45,7 +46,7 @@ else:
 
 
     
-kilometers = float(input("Enter value in kilometers: "))
+kilometers = float(input("Enter kilometers float value : "))
 conv_fac = 1000
 conv_fac2 = 100000
 
@@ -61,13 +62,14 @@ if kilometers == 5.4:
 else:
     print("Have an awesome day!!!")
 
+
 #Que4 Name and height
 name = input("What is your name? ")
-height = input("What is your height in cm? ")
+height = int(input("What is your height in cm? "))
 
 
-if name == "William" and height == 192:
-    print ("William is 192cms tall!")
+if name == "William" and height == int(192):
+    print (f" {name} is" f "{height}cm tall!" %(name,height))
 elif name == "Roary" and height == 27:
     print ("Roary is 27cms tall.")
 else:
