@@ -22,6 +22,7 @@ moths_in_house = False
 mitch_is_home = True
 print("Climb on Mitch")
 
+
 #Que3
 light_colour = "Red" 
 car_detected = False 
