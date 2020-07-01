@@ -22,4 +22,6 @@ while len(name) > 1:
         print(f"Hi {name}")
     name = input("What is your name?  ")
 
-    
+   
+while True:
+    name = input("What is your name? ")
