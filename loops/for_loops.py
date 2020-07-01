@@ -12,3 +12,7 @@ tea_collection = [
 
 for tea in tea_collection:
     print(tea)
+    #    print(type(tea))
+    print(f"I have {tea} flavoured tea.")
+
+print("ended loop")
