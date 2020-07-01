@@ -36,5 +36,6 @@ tea_collection = [
 
 for tea_category in tea_collection:
     print(f"{tea_category[0]} Teas:")
-    for tea in tea_category:
-        print(tea)
+    for tea in tea_category[1:]:
+        print(f"    {tea}")
+        
