@@ -16,3 +16,11 @@ for tea in tea_collection:
     print(f"I have {tea} flavoured tea.")
 
 print("ended loop")
+
+for index in range(0,10):
+    print(index)
+
+print()
+
+for index in range(0,50, 5):
+    print(index)
