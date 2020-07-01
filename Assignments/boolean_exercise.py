@@ -8,46 +8,44 @@ print("No threats detected")
 #Que2
 moths_in_house = True
 mitch_is_home = True
-print("Hoooman! Help me get the moths!")
 
-moths_in_house = False
-mitch_is_home = False
-print("No threats detected.")
+if moths_in_house and mitch_is_home:
+    print("Hoooman! Help me get the moths!")
 
-moths_in_house = True
-mitch_is_home = False
-print("Meoooooooow! Hissssssss!")
+elif not moths_in_house and not mitch_is_home:
+    print("No threats detected.")
 
-moths_in_house = False
-mitch_is_home = True
-print("Climb on Mitch")
+elif moths_in_house and not mitch_is_home:
+    print("Meoooooooow! Hissssssss!")
+
+elif not moths_in_house and mitch_is_home:
+    print("Climb on Mitch")
 
 
 #Que3
 light_colour = "Red" 
 car_detected = False 
 
-print()
+if light_colour == "Red" and not car_detected:
+    print("Do nothing.")
 
-light_colour = "Red" 
-car_detected = True 
-print("Flash!")
+elif light_colour == "Red" and car_detected:
+    print("Flash!")
 
-light_colour = "Green" 
-car_detected = False 
-print()
+elif light_colour == "Green" and not car_detected:
+    print("Do nothing.")
 
-light_colour = "Green" 
-car_detected = True 
-print()
+elif light_colour == "Green" and car_detected:
+    print("Do nothing.")
 
-light_colour = "Amber" 
-car_detected = False 
-print()
+elif light_colour == "Amber" and not car_detected:
+    print("Do nothing.")
 
-light_colour = "Amber" 
-car_detected = True 
-print()
+elif light_colour == "Amber" and car_detected:
+    print("Do nothing.")
+
+else:
+    print("Do nothing")
 
 #Que4
 height = int(input('How tall are you? '))
