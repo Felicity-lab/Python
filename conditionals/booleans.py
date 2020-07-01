@@ -3,8 +3,8 @@
 is_raining = True
 is_cold = False
 
-print(is_raining)
-print(is_cold)
+
+
 
 print("AND Comparisons:")
 
