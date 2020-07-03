@@ -8,5 +8,7 @@ print(foods[2])
 print(foods[-1])
 print(foods[0:3])
 print(foods[-3:])
-print(foods[-7:][-4])
+print(foods[6][2])
 
+
+# Que2
