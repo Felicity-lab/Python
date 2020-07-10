@@ -13,7 +13,6 @@ print(foods[6][2])
 
 
 # Que2
-
 mailing_list=[
         ["Roary", "roary@moth.catchers"], 
         ["Remus", "remus@kapers.dog"],
@@ -32,8 +31,7 @@ for i in mailing_list:
 for j in lst:
     print(j)
 
-#Que3 
-    
+#Que3  
 lst=[]    
 name1=input("Please enter 1st name: ") 
 lst.append(name1)
@@ -42,4 +40,24 @@ lst.append(name2)
 name3=input("Please enter 3rd name: ") 
 lst.append(name3)
 print(lst)
+
+#Que4
+def my_list(): 
+    request = input("Enter a string : ")
+    li = list(request.split(" ")) 
+    print(len(li), request.split())
+    print(len(request), list(request))
+
+    return li 
+my_list() 
+
+def my_list2(): 
+    request = input("Enter a string : ")
+    li = list(request.split(" ")) 
+    print(len(li), request.split())
+    print(len(request), list(request))
+
+    return li 
+my_list2() 
+
 
